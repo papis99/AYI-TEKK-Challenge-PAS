@@ -21,6 +21,8 @@
     "@deepgram/sdk": "^1.11.0",
     "bootstrap": "^5.2.3",
     "fallback": "^1.0.1",
+    "javascript": "^1.0.0",
+    "jquery": "^3.6.1",
     "querystring-es3": "^0.2.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
