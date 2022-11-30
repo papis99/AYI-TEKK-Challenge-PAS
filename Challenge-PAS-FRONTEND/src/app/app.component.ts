@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
 
   recording(){
     this.record=true;
-    //this.transcriptionResult=''
+    this.transcriptionResult=null
     this.enregistrer();
   }
 
@@ -42,5 +42,9 @@ export class AppComponent implements OnInit {
       console.log(err);
     });
   }
+
+  ////////////
+
+
 
 }

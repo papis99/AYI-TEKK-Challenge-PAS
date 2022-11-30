@@ -5,8 +5,7 @@ asr = Speech2Text(model_name="abdouaziiz/wav2vec2-xls-r-300m-wolof")
 
 def transcription1(audio):
      print("transcription en cour...")
-#     asr = Speech2Text(model_name="abdouaziiz/wav2vec2-xls-r-300m-wolof")
      a = asr(audio)
      print("Fin de la transcription")
-     print("RESULTAT : ", a)
+     #print("RESULTAT : ", a)
      return a
